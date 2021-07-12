@@ -1,0 +1,15 @@
+header {
+   background-color: #FFE03D;
+   border: 2px;
+}
+body {
+    background-color: #E2DDDD;
+}
+
+
+footer {
+    background-color: #FFE03D;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

@@ -1,3 +1,9 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box;
+}
 header {
    background-color: #FFE03D;
    border: 2px;
@@ -5,8 +11,20 @@ header {
 body {
     background-color: #E2DDDD;
 }
-
-
+main section{
+    display: flex;
+}
+main section > div{
+    width: 33%;
+}
+main section div picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main section div h2 {
+    text-align: center;
+}
 footer {
     background-color: #FFE03D;
     display: flex;
